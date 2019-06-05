@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enableAndroidAutoLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Android Auto"
+                android:checked = "true"
+                android:switchMinWidth="80dp"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enableAuxLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="80dp"
+                android:text="AUX"
+                android:checked = "true"
+                android:textStyle="bold"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enableCarLifeLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Car Life"
+                android:checked = "true"
+                android:switchMinWidth="80dp"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enableCarplayLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="80dp"
+                android:text="Carplay"
+                android:textStyle="bold"
+                android:checked = "true"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enableIAP2LogSwitch"
+                android:layout_width="500dp"
+                android:checked = "true"
+                android:layout_height="wrap_content"
+                android:text="iAP2 Playback"
+                android:textSize="40sp"
+                android:switchMinWidth="80dp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enableHFPLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:switchMinWidth="80dp"
+                android:checked = "true"
+                android:text="Hands-Free Phone"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enableMediaPlaybackLogSwitch"
+                android:layout_width="500dp"
+                android:switchMinWidth="80dp"
+                android:layout_height="wrap_content"
+                android:text="Media Playback"
+                android:textSize="40sp"
+                android:checked = "true"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enableNavigationLogSwitch"
+                android:layout_width="500dp"
+                android:switchMinWidth="80dp"
+                android:layout_height="wrap_content"
+                android:checked = "true"
+                android:text="Navigation"
+                android:textStyle="bold"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enablePathologyLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Pathology"
+                android:switchMinWidth="80dp"
+                android:checked = "true"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enablePowerModingLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Power Moding"
+                android:checked = "true"
+                android:switchMinWidth="80dp"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enableRVCLogSwitch"
+                android:layout_width="500dp"
+                android:switchMinWidth="80dp"
+                android:layout_height="wrap_content"
+                android:text="Rear View Camera"
+                android:textSize="40sp"
+                android:checked = "true"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enableSecureTimeLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:switchMinWidth="80dp"
+                android:text="Secure Time"
+                android:checked = "true"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enableSoftwareUpdateLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="80dp"
+                android:text="Software Update"
+                android:checked = "true"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enableSWCLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Steering Wheel Control"
+                android:checked = "true"
+                android:switchMinWidth="80dp"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/enableTunerSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="80dp"
+                android:text="Tuner"
+                android:checked = "true"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/enableTODLogSwitch"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Time of Day"
+                android:switchMinWidth="80dp"
+                android:checked = "true"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

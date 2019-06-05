@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Harman Vehicle Diagnostics</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Harman Vehicle Diag</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="ipc_1">IPC Channel 1</string>
+    <string name="ipc_2">IPC Channel 2</string>
+    <string name="ipc_3">IPC Channel 3</string>
+    <string name="ipc_4">IPC Channel 4</string>
+    <string name="ipc_5">IPC Channel 5</string>
+    <string name="ipc_6">IPC Channel 6</string>
+    <string name="ipc_7">IPC Channel 7</string>
+    <string name="ipc_8">IPC Channel 8</string>
+    <string name="ipc_9">IPC Channel 9</string>
+    <string name="ipc_10">IPC Channel 10</string>
+    <string name="ipc_11">IPC Channel 11</string>
+    <string name="ipc_12">IPC Channel 12</string>
+    <string name="ipc_13">IPC Channel 13</string>
+    <string name="snapshot_Intent">com.fca.action.LAUNCH_SYSTEM_SNAPSHOT</string>
+</resources>
